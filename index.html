@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muhammad Rabiu | Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 32px auto; padding: 0 16px; }
+    header { display: flex; gap: 24px; align-items: center; }
+    img { width: 180px; height: 180px; object-fit: cover; border-radius: 6px; }
+    h1 { margin: 0 0 8px 0; }
+    a.button { display: inline-block; padding: 10px 14px; border: 1px solid #222; border-radius: 6px; text-decoration: none; margin-top: 10px; }
+    section { margin-top: 28px; }
+    footer { margin-top: 40px; color: #666; font-size: 14px; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="photo.jpg" alt="Muhammad Rabiu headshot">
+    <div>
+      <h1>Muhammad Rabiu</h1>
+      <div>Email: mrabi002@odu.edu</div>
+      <a class="button" href="resume.pdf">Download Resume</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      I am a cybersecurity and data analytics student at Old Dominion University. I am developing skills in Python, machine learning, automation, and security, while building my professional portfolio.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>Tokyo air quality prediction using machine learning</li>
+      <li>Automation and AI calling agent experiments</li>
+      <li>Python programming basics practice</li>
+    </ul>
+  </section>
+
+  <footer>
+    © <span id="y"></span> Muhammad Rabiu
+    <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
